@@ -1,3 +1,10 @@
+/*
+* Closures is simply the ability of a function at the time of declaration
+* to remember the references of variables and parameters on its current scope,
+*  on its parent function scope, on its parent's parent function scope
+* until it reaches the global scope with the help of Scope Chain
+* */
+
 function createFrameworkManager() {
     const fw = ['Angular', 'React'];
 

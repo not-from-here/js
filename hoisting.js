@@ -17,6 +17,12 @@
  * Function Expression -> can use ONLY AFTER DECLARATION ( = )
  * Function Declaration -> Can use wherever
  */
+
+/*
+* Hoisting is the term used to describe the moving of variables and functions
+* to the top of their (global or function) scope on where we define that
+* variable or function.*/
+
 console.log(squareDeclaration(136)); //Can use wherever
 
 function squareDeclaration(num) {
