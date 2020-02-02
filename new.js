@@ -18,3 +18,36 @@ function myNew(constructor, ...args) {
 /*
 const cat = new Cat();
 console.log(cat);*/
+
+
+/**
+ * The new keyword is used with constructor
+ * functions to make objects in JavaScript.
+ *
+ *
+ * The new keyword does 4 things.
+ *
+ *  * Creates an empty object.
+ *  * Assigns that empty object to the this value.
+ *  * The function will inherit from functionName.prototype.
+ *  * Returns the this if no Explicit return statement is used.
+ *
+ *
+ */
+
+/*
+it will first create an empty object {} then
+it will the this value to that empty object
+this = {} and add properties to that this object.
+Because we don't have a explicit return statement
+it automatically returns the this for us.
+*/
+
+function Employee(name, position, yearHired) {
+    this.name = name;
+    this.position = position;
+    this.yearHired = yearHired;
+}
+
+const emp = new Employee("Marko Polo", "Software Developer", 2017);
+console.log(emp);
