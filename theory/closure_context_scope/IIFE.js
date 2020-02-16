@@ -5,8 +5,8 @@
  *
  * })()
  */
-// setTimeout
 
+// setTimeout
 const fib = [1, 2, 3, 5, 8, 13];
 
 for (var i = 0; i < fib.length; i++) {

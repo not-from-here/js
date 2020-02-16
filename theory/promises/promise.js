@@ -57,7 +57,6 @@ const willIGetNewJob = new Promise(
             const reason = new Error('you need to study');
             reject(reason); // reject
         }
-
     }
 );
 

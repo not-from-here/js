@@ -22,7 +22,7 @@ set2.add("g").add("h").add("i").add("j").add("k").add("k");
 
 console.log(set2); // Set { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k' }
 
-/*
+/**
 We can remove a value from the Set instance using the delete method,
 this method returns a boolean indicating true if a value exists in the
 Set object and false indicating that value does not exist.
@@ -31,23 +31,30 @@ Set object and false indicating that value does not exist.
 set2.delete("k");// returns true because "k" exists in the set object
 set2.delete("z");// returns false because "z" does not exists in the set object
 
-/*We can check if a specific value exists
-in the Set instance using the has method.*/
+/**
+ We can check if a specific value exists
+ in the Set instance using the has method.
+ */
 
 set2.has("a"); // returns true because "a" exists in the set object
 set2.has("z"); // returns false because "z" does not exists in the set object
 
-/*We can get the length of the Set instance using the size property.*/
+/**
+ We can get the length of the Set instance using the size property.
+ */
 
 console.log(set2.size);//10
 
-/*We can delete or remove all the elements in the Set instance using the clear.*/
+/**
+ We can delete or remove all the elements in the Set instance using the clear.
+ */
 
 set2.clear();
-
 console.log(set2); //Set {}
 
-/*We can use the Set object for removing duplicate elements in an array.*/
+/**
+ We can use the Set object for removing duplicate elements in an array.
+ */
 
 const numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 8, 5];
 const uniqueNums = [...new Set(numbers)]; // has a value of [1,2,3,4,5,6,7,8]

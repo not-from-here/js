@@ -34,7 +34,7 @@ const john = { surname: 'Сноу' };
 person.knows('все', 'Арья');
 
 /**
- * The call invokes a function specifying the this or the "owner"
+ * The CALL invokes a function specifying the this or the "owner"
  * object of that function on that time of invocation.
  * !!! arguments separating them with a comma , for every argument
  * call immediate
@@ -71,4 +71,4 @@ function myFunc() {
 }
 
 myFunc();
-console.log('B - '+b);
+console.log('B - '+b); // B - 0

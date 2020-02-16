@@ -21,12 +21,18 @@ function createFrameworkManager() {
 // In this way, fn is private but, we can change it using this way.
 const manager = createFrameworkManager();
 // console.log(manager);
-manager.print();
+manager.print(); // Angular React
 manager.add('VueJS');
 
-manager.print();
+manager.print(); // Angular React VueJS
 
 const manager2 = createFrameworkManager();
 manager2.add('Node');
 
-manager2.print();
+manager2.print(); // Angular React Node
+
+
+// OUTPUT
+// Angular React
+// Angular React VueJS
+// Angular React Node

@@ -13,7 +13,7 @@ function myNew(constructor, ...args) {
 }
 
  const cat2 = myNew(Cat, 'black', 'Cat');
- console.log(cat2)
+ console.log(cat2);
 
 /*
 const cat = new Cat();
